@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom right, #C9D6FF, #F3EFEF);
+
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+header h1 {
+    color: #888559;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 60px;
+    align-content: center;
+
+}
+p{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+footer p {
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
+}
+
+.video-gallery {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  display: none;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.video-info {
+  position: absolute;
+  margin-top: -19px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  padding: 7px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.prev {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 3px 0 0 3px;
+  cursor: pointer;
+}
+
+.next {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+#contact{
+    font-size: 37px;
+}
+#camera{
+    position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 30px;
+}
+#drone{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#wedding-photo1 {
+    position: relative;
+    top: -345px;
+}
+
+#pizza {
+     position: relative;
+    top: -0px;
+    left: px;
+}
+
+#chocolate {
+    position: relative;
+    top: -345px;
+    margin-top: auto:100px;
+}
+#macaron {
+    position: relative;
+    top: -350px;
+    right: 
+}
+#cookie{
+    position: relative;
+    top: -505px;
+    left: -250px;
+    
+*/
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
